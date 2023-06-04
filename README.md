@@ -3,7 +3,6 @@
 # COMP30019 – G69 Toon Racers - README
 
 ## Table of Contents
-* [Where to Locate Code](#Where-to-Locate-Code)
 * [Team Members and Contributions](#Team-Members-and-Contributions)
 * [Explanation of the Game](#Explanation-of-the-Game)
 * [How to Use the Game](#How-to-Use-the-Game)
@@ -16,58 +15,6 @@
 * [Evaluations](#Evaluations)
 * [References](#References)
 * [Technologies](#Technologies)
-
-## Where to Locate Code
-
-### Water Shader Location
-##### Assets/Shaders/WaterShader2
-* The water shader is visible in the Time Trial between corner 2 and 3. Also within the Coin Game any height lower the y = 5.
-
-### Cel Shader Location
-##### Assets/Shaders/CelShader
-* The CelShader is visible on every object in our game except for Water.
-
-### Particle System Location
-##### Assets/Particle
-* The particle system consists of the three different effects that happen when the car is driving, turning, and boosting.
-
-### Procedural Generation Location
-##### Assets/Scripts/CoinGame
-* Procedural generation is used only in the Coin Game and is used to provide random worlds and is also responsible for the spawning of the trees and coins.
-* Can be reset within the Coin Game using the R key to see how the seed can change.
-
-*Note: 
-The Coin Game was included solely to be marked for the procedural generation portion of the assignment. The Time Trials version of our game contains the bulk of our assessable code (everything except for procedural generation). Our decision to implement procedural generation to the Coin Game rather than the Time Trials was motivated by wanting to maintain consistency. By providing the same racetrack to players in our Time Trials, they are able to become familiar with the track, improve their skills, and work towards achieving a personal best time. Whereas, the goals of the Coin Game do not require the same terrain each play.
-
-## Team Members and Contributions
-
-| Name           |            Task            | State   |
-| :---:          |            :--:            | :---:   |
-| Paul Hutchins  | Map Creation               |  Complete   |
-| Paul Hutchins  | Car Movement               |  Complete   |
-| Paul Hutchins  | Camera                     |  Complete   |
-| Jasper Robbins | Main Menu                  |  Complete   |
-| Jasper Robbins | Pause Menu                 |  Complete   |
-| Kian Dsouza    | Checkpoints                |  Complete   |
-| Jasper Robbins | Checkpoint Tracking        |  Complete   |
-| Jade Siang     | Countdown                  |  Complete   |
-| Jade Siang     | Timer                      |  Complete   |
-| Jasper Robbins | Game Music                 |  Complete   |
-| Kian Dsouza    | Procedural Coin Game       |  Complete   |
-| Kian Dsouza    | Coin Counter               |  Complete   |
-| Kian Dsouza    | Countdown timer            |  Complete   |
-| Paul Hutchins  | Particles                  |  Complete   |
-| Paul Hutchins  | Shader 1                   |  Complete   |
-| Paul Hutchins  | Shader 2                   |  Complete   |
-| Jasper Robbins | Persistent Slider Settings |  Complete   |
-| Jasper Robbins | Persistent High Score      |  Complete   |
-| Paul Hutchins  | Game Video                 |Submitted|
-| Jade Siang     | Querying Method           |  Complete   |
-| Kian Dsouza    | Observational Method      |  Complete   |
-| Paul Hutchins  | Turn Acceleration          |  Complete   |
-| Paul Hutchins  | Car Boost                  |  Complete   |
-| Jasper Robbins | Checkpoint Splits          |  Complete   |
-| Everyone       | Write Up                   |Complete|
 
 ## Explanation of the Game
 Toon Racers is a racecar game. In the Time Trials version of the game, the player controls a racecar with the aim of completing a lap of the racetrack in the shortest amount of time possible. 
